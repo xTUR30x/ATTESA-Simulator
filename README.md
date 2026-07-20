@@ -1,5 +1,8 @@
 # ATTESA E-TS Digital Telemetry Simulator
 
+![Modo Libre Conducción](images/detailed_view.png)
+![Vista de Detalle y Telemetría](images/free_view.png)
+
 Un simulador interactivo en 2D desarrollado en Python y Pygame enfocado en la recreación matemática y visual del legendario sistema de tracción integral inteligente **ATTESA E-TS** (Advanced Total Traction Engineering System for All-Terrain Electronic Torque Split) de Nissan.
 
 El proyecto permite analizar en tiempo real cómo la computadora distribuye el par motor entre los ejes delantero y trasero en función de la pérdida de adherencia, inercias laterales y la intervención del freno de mano en distintas superficies.
@@ -30,3 +33,10 @@ Asegúrate de tener instalado Python y la biblioteca Pygame:
 
 ```bash
 pip install pygame
+```
+
+## Ejecución
+
+```bash
+python attesa_sim.py
+```
